@@ -31,7 +31,7 @@ The following packages must be installed prior to running this code:
 To run this code, please enter the following commands in R:
 
 ```
-shiny::runGitHub('usfviz', 'Sailor-Moon-', subdir='project-prototype')
+shiny::runGitHub('usfviz', 'Sailor-Moon-final')
 ```
 
 
@@ -39,13 +39,13 @@ shiny::runGitHub('usfviz', 'Sailor-Moon-', subdir='project-prototype')
 
 Below are three screenshots of the interface of the shiny app.
 
-![IMAGE](shinyapp1.png)
+![IMAGE](/screenshots/shinyapp1.png)
 
-![IMAGE](shinyapp2.png)
+![IMAGE](/screenshots/shinyapp2.png)
 
-![IMAGE](shinyapp3.png)
+![IMAGE](/screenshots/shinyapp3.png)
 
-![IMAGE](shinyapp4.png)
+![IMAGE](/screenshots/shinyapp4.png)
 
 
 ### Dataset
@@ -54,4 +54,4 @@ The GDELT database is the largest, most comprehensive, and highest resolution op
 
 ### UI
 
-The prototype user interface is still maturing at the moment. All the avaiable plots can currently interact with user-select date and news/news source type. Ideally, we expect to implement more interactions given the mightiness of GDELT dataset. However, due to the limitation of the `gdeltr2` package we currently used to query GDELT database, there is limited information suitable for visualization. We expect to offer more visualization as we explore more tables provided by the `gdeltr2` or other means to query the database.
+All the avaiable plots can currently interact with user-select date and news/news source type. Ideally, we expect to implement more interactions given the mightiness of GDELT dataset. However, due to the limitation of the `gdeltr2` package we currently used to query GDELT database, there is limited information suitable for visualization. We expect to offer more visualization as we explore more tables provided by the `gdeltr2` or other means to query the database.
