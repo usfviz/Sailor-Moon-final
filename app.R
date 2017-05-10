@@ -4,7 +4,7 @@ rm(list = ls())
 cat("\014")
 
 #======================================== packages =============================================
-packageList = c('geosphere', 'tidyverse', 'plotly', 'devtools', 'hrbrthemes', 'shiny', 'GGally', 'sp', 'rworldmap', 'tidyr', 'dplyr', 'googleVis', 'countrycode', 'leaflet', 'magrittr', 'maps')
+packageList = c('glue', 'geosphere', 'tidyverse', 'plotly', 'devtools', 'hrbrthemes', 'shiny', 'GGally', 'sp', 'rworldmap', 'tidyr', 'dplyr', 'googleVis', 'countrycode', 'leaflet', 'magrittr', 'maps')
 for (i in 1:length(packageList)) {
   if(! is.element(packageList[i],installed.packages()[,1])) {
     install.packages(packageList[i])
