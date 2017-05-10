@@ -31,7 +31,7 @@ The following packages must be installed prior to running this code:
 To run this code, please enter the following commands in R:
 
 ```
-shiny::runGitHub('usfviz', 'Sailor-Moon-final')
+shiny::runGitHub('usfviz/Sailor-Moon-final')
 ```
 
 
